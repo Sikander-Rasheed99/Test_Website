@@ -1,0 +1,457 @@
+@media only screen and (max-width:1399px) {
+    .banner-sec .sec_content h1 {
+        font-size: 40px;
+    }
+
+    .banner-sec .sec_content p {
+        font-size: 15px;
+    }
+
+    .graph_sec form button {
+        font-size: 14px;
+    }
+
+    .bussiness_sec .card {
+        padding: 50px 12px 20px;
+    }
+}
+
+@media only screen and (max-width:991px) {
+    .container {
+        max-width: 900px;
+    }
+
+    header .navbar ul li {
+        margin-left: 7px;
+    }
+
+    header .navbar ul li .number span {
+        font-size: 13px;
+    }
+
+    a svg {
+        height: 16px;
+    }
+
+    header .navbar ul li .name span:not(:last-child) {
+        font-size: 9px;
+    }
+
+    header .navbar ul li .name p {
+        font-size: 13px;
+    }
+
+    .nav_btn {
+        width: 185px;
+        height: 40px;
+        font-size: 13px;
+    }
+
+    .banner-sec .sec_content h1 {
+        font-size: 25px;
+    }
+
+    .banner-sec .partical img {
+        max-width: 309px;
+    }
+
+    .banner-sec .sec_form input {
+        width: 32%;
+    }
+
+    .banner-sec .sec_content p {
+        font-size: 15px;
+    }
+
+    .banner-sec .part_One {
+        right: -1px;
+    }
+
+    .banner-sec .sec_img .main_image {
+        position: relative;
+        z-index: 999;
+    }
+
+    .graph_sec h2 {
+        font-size: 30px;
+    }
+
+    .graph_sec p {
+        font-size: 16px;
+        max-width: 100%;
+    }
+
+    .graph_sec .percent p {
+        font-size: 30px;
+    }
+
+    .graph_sec .percent span {
+        font-size: 13px;
+    }
+
+    .graph_sec form {
+        flex-wrap: wrap;
+    }
+
+    .graph_sec form button,
+    .graph_sec form input {
+        width: 100%;
+    }
+
+    .bussiness_sec .review_card p {
+        font-size: 14px;
+    }
+
+    .bussiness_sec .card h3 {
+        font-size: 30px;
+    }
+
+    .bussiness_sec .card .second_content {
+        font-size: 25px;
+    }
+
+    .bussiness_sec .card .second_span {
+        font-size: 22px;
+        line-height: 29px;
+    }
+
+    .bussiness_sec .gap-3 {
+        gap: 0.3rem !important;
+    }
+
+    .card_image img {
+        min-width: 241px;
+        min-height: 139px;
+        max-height: 350px;
+    }
+
+    .bussiness_sec .card h4 {
+        font-size: 32px;
+    }
+
+    .bussiness_sec .card .d-flex .content p {
+        font-size: 11px;
+        line-height: 1.2;
+    }
+
+    .bussiness_sec .card .d-flex {
+        flex-direction: column;
+    }
+
+    .bussiness_sec .card ul li {
+        flex-direction: row !important;
+    }
+
+    .traffic_sec h3 {
+        font-size: 25px;
+    }
+
+    .traffic_sec {
+        padding: 23px 0;
+    }
+
+    .traffic_sec p {
+        font-size: 13px;
+        line-height: 1.5;
+    }
+
+    .traffic_sec ul li p {
+        font-size: 14px;
+        margin-bottom: 14px;
+    }
+
+    .traffic_sec a {
+        font-size: 15px;
+        height: 45px;
+        line-height: 45px;
+        width: 210px;
+        margin-top: 23px;
+    }
+
+
+    .packages_sec .nav {
+        gap: 0 15px;
+    }
+
+    .nav-tabs .nav-link {
+        width: 95%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .nav_btn {
+        width: 135px;
+        height: 35px;
+        font-size: 11px;
+    }
+
+    header .navbar ul li .number span {
+        font-size: 11px;
+    }
+
+    header .navbar ul li .name p {
+        font-size: 11px;
+    }
+
+    .navbar-light .navbar-toggler-icon {
+        background-image: url(../images/menu-icon.png);
+    }
+
+    .banner-sec .partical img {
+        display: none;
+    }
+
+    .banner-sec .sec_form .site_inp {
+        width: 100%;
+    }
+
+    .banner-sec .sec_form input {
+        width: 34%;
+    }
+
+    .banner-sec .sec_form input:not(:last-child) {
+        border-right: 1px solid #A646A5;
+    }
+
+    .graph_sec {
+        padding: 40px 0;
+    }
+
+    .bussiness_sec h2:not(:last-child) {
+        font-size: 35px;
+    }
+
+    .bussiness_sec {
+        padding: 30px 0;
+    }
+
+    .bussiness_sec .main_para {
+        font-size: 15px;
+        max-width: 450px;
+        margin: 1px auto 1px;
+    }
+
+    .bussiness_sec h2:last-child {
+        font-size: 28px;
+        margin-bottom: 0;
+    }
+
+    .bussiness_sec .review_card p {
+        font-size: 14px;
+        margin: 17px auto 0;
+    }
+
+    .bussiness_sec .review_card h4 {
+        margin-top: 17px;
+    }
+
+    .bussiness_sec .card ul li {
+        flex-direction: row !important;
+    }
+
+    .bussiness_sec .card .second_span img {
+        bottom: -12px;
+        width: 30%;
+    }
+
+    .bussiness_sec .card .second_content {
+        font-size: 30px;
+        max-width: 100%;
+    }
+
+    .bussiness_sec .card .second_span {
+        font-size: 26px;
+    }
+
+    .bussiness_sec .card .card_number {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0px;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .traffic_sec {
+        z-index: 999999;
+        position: relative;
+    }
+
+    .logos_sec .logos_image {
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 567px) {
+
+    .navbar {
+        height: 50px;
+        padding-top: 0.3rem;
+    }
+
+    .logo img {
+        max-width: 75px;
+        min-width: 75px;
+    }
+
+    ul.navbar-nav {
+        background: #171717;
+        margin-top: 4px;
+        height: 166px;
+        width: 100%;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+
+    .navbar-toggler:focus {
+        text-decoration: none;
+        outline: 0;
+        box-shadow: 0 0 0 -0.75rem;
+    }
+
+    .navbar-toggler {
+        padding: .25rem 0;
+    }
+
+    .banner-sec .sec_form input {
+        width: 100%;
+    }
+
+    .banner-sec .part_One {
+        top: 15%;
+        max-width: 305px;
+    }
+
+    .inputs {
+        flex-direction: column-reverse;
+    }
+
+    .banner-sec {
+        padding: 30px 0;
+        position: relative;
+    }
+
+    .banner-sec .sec_content h1 {
+        font-size: 24px;
+    }
+
+    .banner-sec .btn .sec_btn {
+        padding: 8px 18px;
+        font-size: 13px;
+    }
+
+    .banner-sec .brands {
+        gap: 14px 3px;
+        justify-content: center;
+    }
+
+    .bussiness_sec h2:not(:last-child) {
+        font-size: 25px;
+    }
+
+    .bussiness_sec .main_para {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .bussiness_sec h2:last-child {
+        font-size: 22px;
+        margin-bottom: 21px;
+    }
+
+    .bussiness_sec .review_card span {
+        font-size: 99px;
+    }
+
+    .bussiness_sec .card h3 {
+        font-size: 24px;
+    }
+
+    .bussiness_sec .card ul li p {
+        font-size: 13px;
+    }
+
+    .bussiness_sec .card .second_content {
+        font-size: 22px;
+    }
+
+    .bussiness_sec .card .second_span {
+        font-size: 21px;
+    }
+
+    .bussiness_sec .card .second_span img {
+        width: 74%;
+    }
+
+    .traffic_sec {
+        padding: 0;
+    }
+
+    .traffic_sec h3 {
+        font-size: 21px;
+    }
+
+    .traffic_sec ul li p {
+        font-size: 13px;
+        margin-bottom: 13px;
+    }
+
+    .traffic_sec a {
+        font-size: 13px;
+        height: 40px;
+        line-height: 40px;
+        width: 193px;
+        margin-top: 23px;
+    }
+
+    .packages_sec {
+        padding: 45px 0;
+    }
+
+    .packages_sec .content p {
+        font-size: 12px;
+        max-width: 350px;
+    }
+
+    .packages_sec .content h2 {
+        font-size: 46px;
+        margin: 9px 0;
+        line-height: 1;
+    }
+
+    .packages_sec .nav {
+        gap: 15px 0px;
+    }
+
+    .nav-tabs .nav-link {
+        font-size: 12px;
+    }
+
+    .nav-tabs .nav-link span {
+        font-size: 10px;
+    }
+
+    .packages_sec .nav {
+        justify-content: start;
+    }
+
+    .packages_sec ul li {
+        list-style: none;
+        width: 100%;
+    }
+
+    .nav-tabs .nav-link {
+        width: 100%;
+    }
+
+    .packages_sec .card .pack_btn a p {
+        font-size: 12px;
+    }
+
+    .packages_sec .card a {
+        font-size: 14px;
+    }
+
+    .packages_sec .list span {
+        font-size: 13px;
+    }
+}

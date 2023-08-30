@@ -1,0 +1,864 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden !important;
+    background: #EEF1FD !important;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+ul li {
+    list-style: none;
+}
+
+/* inter fonts */
+
+@font-face {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    /* font-weight: 100; */
+    src: url(../fonts/inter/Inter-VariableFont_slnt\,wght.ttf) format('ttf');
+}
+
+/* mostserrat fonts */
+
+@font-face {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    /* font-weight: 100; */
+    src: url(../fonts/montserrat/Montserrat-Italic-VariableFont_wght.ttf) format('ttf');
+}
+
+/* poppins start */
+
+@font-face {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    src: url(../fonts/poppins/Poppins-Black.ttf) format('ttf');
+}
+
+@font-face {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    src: url(../fonts/poppins/Poppins-BlackItalic.ttf) format('ttf');
+}
+
+@font-face {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    src: url(../fonts/poppins/Poppins-Bold.ttf) format('ttf');
+}
+
+@font-face {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    src: url(../fonts/poppins/Poppins-ExtraBold.ttf) format('ttf');
+}
+
+@font-face {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    src: url(../fonts/poppins/Poppins-ExtraLight.ttf) format('ttf');
+}
+
+@font-face {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    src: url(../fonts/poppins/Poppins-Light.ttf) format('ttf');
+}
+
+@font-face {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    src: url(../fonts/poppins/Poppins-Medium.ttf) format('ttf');
+}
+
+@font-face {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    src: url(../fonts/poppins/Poppins-Regular.ttf) format('ttf');
+}
+
+@font-face {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    src: url(../fonts/poppins/Poppins-SemiBold.ttf) format('ttf');
+}
+
+@font-face {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    src: url(../fonts/poppins/Poppins-Thin.ttf) format('ttf');
+}
+
+
+
+body {
+    font-family: 'Inter', sans-serif !important;
+}
+
+.montserrat {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.poppins {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* header start */
+
+.sticky-top {
+    top: 15px !important;
+    z-index: 99999999999 !important;
+}
+
+.navbar {
+    height: 60px;
+    border-radius: 12px;
+    background: #171717;
+    box-shadow: 0px 2px 13px #555555;
+}
+
+.logo img {
+    max-width: 85px;
+    min-width: 85px;
+    width: 100%;
+}
+
+header .navbar ul li .name span:not(:last-child) {
+    font-size: 8px;
+    text-transform: uppercase;
+}
+
+header .navbar ul li {
+    margin-left: 25px;
+}
+
+header .navbar ul li .name p {
+    line-height: 10px;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+header .navbar ul li .name p span {
+    font-weight: 600;
+}
+
+header .navbar ul li .number span {
+    font-weight: 600;
+    font-size: 13px;
+}
+
+header .navbar ul li a svg:hover,
+a:hover {
+    color: #d377d1 !important;
+    transition: 0.4s ease;
+    fill: #d377d1;
+}
+
+a svg {
+    fill: white;
+    height: 16px;
+}
+
+
+.nav_btn {
+    background: #A646A5;
+    border-radius: 10px;
+    width: 200px;
+    height: 40px;
+    font-size: 14px;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.nav_btn:hover {
+    background: white;
+}
+
+.nav-link .icon {
+    transition: fill 0.3s;
+}
+
+.nav-link:hover .text {
+    color: #d377d1;
+    transition: ease 0.4s;
+}
+
+.nav-link:hover .icon path {
+    fill: #d377d1;
+    transition: ease 0.4s;
+}
+
+/* header end  */
+
+/* banner start */
+
+.banner-sec {
+    padding: 60px 0;
+    position: relative;
+}
+
+.banner-sec .btn .sec_btn {
+    border: 1px solid #A646A5;
+    color: #A646A5;
+    border-radius: 9px;
+    padding: 7px 25px;
+    font-size: 15px;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+}
+
+.banner-sec .sec_content h1 {
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 1.3;
+}
+
+.banner-sec .sec_content p {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 9px;
+}
+
+.banner-sec .brands {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 15px 6px;
+    margin-top: 25px;
+    width: 85%;
+}
+
+.banner-sec .sec_form input {
+    border: 1px solid #A646A5;
+    text-align: center;
+    height: 40px;
+    width: 27%;
+    color: #171717;
+    font-size: 13px;
+    background: transparent;
+}
+
+.banner-sec .sec_form .site_inp {
+    width: 51%;
+}
+
+.banner-sec .sec_form input::placeholder {
+    color: #171717;
+    font-weight: 500;
+}
+
+.banner-sec .sec_form input:not(:last-child) {
+    border-right: none;
+}
+
+.banner-sec .sec_form input:focus {
+    outline: 0;
+}
+
+.banner-sec .sec_form button {
+    background: #A646A5;
+    color: white;
+    border: 0;
+    width: 194px;
+    height: 40px;
+    font-size: 14px;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.banner-sec .sec_img {
+    position: relative;
+}
+
+.banner-sec .sec_img .main_image {
+    width: 100%;
+}
+
+.banner-sec .part_One {
+    position: absolute;
+    top: 20%;
+    right: 26px;
+    max-width: 105px;
+    border-radius: 5%;
+}
+
+
+.banner-sec .partical img {
+    position: absolute;
+    top: -94px;
+    right: 0;
+    z-index: -1;
+    width: 100%;
+    max-width: 506px;
+    height: 100%;
+}
+
+/* banner end  */
+
+
+
+/* logos start */
+
+.logos_sec {
+    padding: 0px 0;
+    background: white;
+}
+
+.logos_sec .logos_image {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 0 40px;
+    flex-wrap: wrap;
+}
+
+.logos_sec .logos_image img {
+    width: 100%;
+    max-width: 97px;
+}
+
+/* logos end */
+
+/* graph start */
+
+.graph_sec {
+    padding: 110px 0;
+    background-color: #171717;
+}
+
+.graph_sec h2 {
+    color: white;
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 1.3;
+    margin-bottom: 0;
+    max-width: 640px;
+}
+
+
+.graph_sec p {
+    color: white;
+    font-size: 19px;
+    max-width: 90%;
+    font-weight: 300;
+}
+
+.graph_sec .percent p {
+    font-size: 40px;
+    font-weight: 600;
+    color: #587BEA;
+    margin-bottom: 0;
+}
+
+.graph_sec .percent span {
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 1.4;
+    color: #587BEA;
+    font-weight: 500;
+    max-width: 290px;
+}
+
+.graph_sec form input {
+    background: transparent;
+    border: 1px solid #5D5D5D;
+    font-size: 18px;
+    font-weight: 500;
+    width: 53%;
+    height: 46px;
+    padding: 10px 17px;
+    border-radius: 4px;
+}
+
+.graph_sec form button {
+    background: #A646A5;
+    border: 0;
+    width: 32%;
+    padding: 0px 17px;
+    height: 46px;
+    color: white;
+    font-weight: 500;
+    font-size: 17px;
+    border-radius: 4px;
+    position: relative;
+}
+
+.graph_sec form button svg {
+    position: absolute;
+    right: 14px;
+    top: 50%;
+    transform: translateY(-41%);
+    height: 10px;
+    width: 8px;
+}
+
+.graph_sec .graph_img img {
+    width: 100%;
+}
+
+/* graph end */
+
+/* bussiness start  */
+
+.bussiness_sec {
+    padding: 85px 0;
+    background: white;
+    position: relative;
+    z-index: 999999;
+}
+
+.bussiness_sec .partical_image img {
+    position: absolute;
+    left: 0;
+    top: 70%;
+    height: 30%;
+    width: 7%;
+    transform: translateY(-70%);
+}
+
+.bussiness_sec .partical_two {
+    position: absolute;
+    right: 0;
+    bottom: -15%;
+    z-index: -1;
+    /* height: 30%; */
+    /* width: 7%; */
+    /* transform: translateY(-70%); */
+}
+
+.bussiness_sec h2:not(:last-child) {
+    text-transform: uppercase;
+    background: linear-gradient(to right, #587BEA 0%, #A646A5 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+    font-size: 43px;
+}
+
+.bussiness_sec .main_para {
+    font-size: 19px;
+    font-weight: 600;
+    background: #A646A5;
+    color: white;
+    max-width: 525px;
+    border-radius: 5px;
+    margin: 15px auto 8px;
+    line-height: 26px;
+    padding: 6px 0;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 0px 20px;
+}
+
+.bussiness_sec h2:last-child {
+    font-size: 36px;
+    margin-top: 15px;
+    margin-bottom: 57px;
+}
+
+
+.bussiness_sec h2 span {
+    font-weight: 700;
+}
+
+.bussiness_sec .review_card span {
+    font-size: 110px;
+    font-weight: 700;
+    color: #A646A5;
+    display: block;
+    line-height: 20px;
+    margin-bottom: 21px;
+}
+
+.bussiness_sec .review_card img {
+    width: 65px;
+    height: 65px;
+}
+
+.bussiness_sec .review_card p {
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 20px;
+    max-width: 274px;
+}
+
+.bussiness_sec .review_card h4 {
+    font-size: 22px;
+    font-weight: 700;
+    margin-top: 40px;
+}
+
+.bussiness_sec .card {
+    border: 0;
+    background: #E6F4F9;
+    height: 100%;
+    padding: 54px 27px 20px;
+    border-radius: 5px;
+}
+
+.bussiness_sec .card h3 {
+    font-size: 40px;
+    font-weight: 600;
+    color: #171717;
+    line-height: 1.2;
+    max-width: 420px;
+}
+
+.bussiness_sec .card h3 span {
+    color: #FD3A30;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+
+.bussiness_sec .card h3 span img {
+    position: absolute;
+    bottom: -2px;
+    right: -9px;
+    width: 100%;
+}
+
+.bussiness_sec .card ul {
+    padding: 0;
+    margin-top: 20px;
+}
+
+.bussiness_sec .card ul li p {
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+.bussiness_sec .card ul li p span {
+    font-weight: 700;
+}
+
+.card_image img {
+    max-width: 260px;
+    height: 100%;
+    min-height: 442px;
+}
+
+.bussiness_sec .card .second_content {
+    font-size: 30px;
+    margin-bottom: 0;
+    max-width: 326px;
+}
+
+.bussiness_sec .card .second_span {
+    color: #FD3A30;
+    position: relative;
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.bussiness_sec .card .second_span img {
+    position: absolute;
+    bottom: -8px;
+    left: 0;
+    width: 70%;
+}
+
+.bussiness_sec .card h4 {
+    font-size: 39px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.bussiness_sec .card .d-flex .content p {
+    font-size: 13px;
+    font-weight: 500;
+    color: #171717;
+}
+
+
+/* bussiness end  */
+
+/* traffic start */
+
+.traffic_sec {
+    padding: 80px 0;
+    background: white;
+}
+
+.traffic_sec h3 {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.traffic_sec p {
+    font-size: 15px;
+    font-weight: 300;
+    max-width: 400px;
+    line-height: 1.6;
+}
+
+.traffic_sec ul {
+    padding-left: 0.3rem;
+}
+
+.traffic_sec ul li p {
+    font-size: 17px;
+    position: relative;
+}
+
+.traffic_sec ul li p::after {
+    content: '';
+    position: absolute;
+    left: -10px;
+    width: 2px;
+    height: 100%;
+    z-index: 999;
+    background-color: #DEDEDE;
+}
+
+.traffic_sec ul li .first_para::after {
+    content: '';
+    position: absolute;
+    left: -10px;
+    width: 2px;
+    height: 100%;
+    z-index: 999;
+    background-color: #A646A5;
+}
+
+.traffic_sec a {
+    background-image: linear-gradient(to right, #587BEA, #9750B2);
+    border: 0;
+    color: white;
+    font-size: 16px;
+    display: block;
+    height: 55px;
+    line-height: 55px;
+    width: 250px;
+    padding: 0 43px;
+    border-radius: 40px;
+    margin-top: 31px;
+    text-align: center;
+}
+
+.traffic_sec .img {
+    position: relative;
+    z-index: 99999999 !important;
+}
+
+.traffic_sec .img img {
+    width: 100%;
+}
+
+/* traffic end */
+
+/* packages start */
+
+.packages_sec {
+    padding: 24px 0;
+    background: white;
+}
+
+.packages_sec .content p {
+    font-size: 14px;
+    font-weight: 500;
+    color: #171717;
+    border: 1px solid #9750B2;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 5px 0;
+    border-radius: 9px;
+}
+
+.packages_sec .content h2 {
+    font-size: 60px;
+    font-weight: 600;
+    color: #171717;
+    margin: 25px 0;
+}
+
+
+.packages_sec .nav {
+    justify-content: center;
+    gap: 0 50px;
+    border-bottom: 0;
+}
+
+.packages_sec .nav-link.active {
+    color: white !important;
+    background-color: #9750B2 !important;
+    border: 0;
+}
+
+.packages_sec ul li {
+    list-style: none;
+    width: 30%;
+}
+
+.nav-tabs .nav-link {
+    margin-bottom: -1px;
+    background: 0 0;
+    border: 1px solid #9750B2 !important;
+    color: #9750B2;
+    width: 100%;
+    font-size: 15px;
+    border-radius: 10px !important;
+    font-weight: 600;
+    padding: 0.6rem 1rem;
+}
+
+.nav-link:focus,
+.nav-link:hover {
+    color: #d377d1 !important;
+}
+
+.nav-tabs .nav-link span {
+    display: block;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 10px;
+    margin-bottom: 5px;
+}
+
+
+.packages_sec .card {
+    padding: 30px 20px;
+    background: transparent;
+    border: 1px solid #9750B2;
+    border-radius: 10px;
+}
+
+.packages_sec .card h4 {
+    font-size: 23px;
+    font-weight: 600;
+}
+
+.packages_sec .card p {
+    color: #8B8B8B;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+.packages_sec .card .price p {
+    font-size: 40px;
+    font-weight: 700;
+    color: #171717;
+}
+
+.packages_sec .card .price p span {
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.packages_sec .card a:not(:last-child) {
+    font-size: 15px;
+    font-weight: 500;
+    width: 100%;
+    height: 50px;
+    background: #9750B2;
+    color: white;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 24px !important;
+    margin-bottom: 30px;
+    transition: ease 0.5s;
+}
+
+.packages_sec .card a span {
+    width: 443px;
+    justify-content: center;
+    display: flex;
+}
+
+
+.packages_sec .card a:hover {
+    color: #9750B2;
+    background: white;
+    border: 2px solid #9750B2;
+    transition: ease 0.5s;
+}
+
+.packages_sec .list p {
+    color: #171717;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+
+.packages_sec .card ul li {
+    width: 100%;
+}
+
+.packages_sec .card ul {
+    max-height: 300px;
+    overflow-y: scroll;
+}
+
+.packages_sec .card ul::-webkit-scrollbar-track {
+    border-radius: 5px;
+    background-color: #DEDEDE;
+}
+
+.packages_sec .card ul::-webkit-scrollbar {
+    width: 9px;
+    background-color: #F5F5F5;
+}
+
+.packages_sec .card ul::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+    background-color: #8B8B8B;
+}
+
+.packages_sec .list span {
+    font-size: 15px;
+    color: #555555;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.packages_sec .card .pack_btn a {
+    background: transparent;
+    border: 0;
+    padding: 0px !important;
+    margin-bottom: 0;
+    width: 100%;
+}
+
+.packages_sec .tab-pane .row {
+    gap: 25px 0;
+}
+
+.packages_sec .card .pack_btn a p {
+    margin-bottom: 0;
+    color: #9750B2;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.packages_sec .card a {
+    color: #171717;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+/* packages end  */
